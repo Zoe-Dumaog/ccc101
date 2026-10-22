@@ -1,12 +1,12 @@
 #include "stdio.h"
 
 void main() {
-    float Zoe, Dumaog;
-    printf("Enter the first real number: ");
-    scanf("%f", &Zoe);
-    printf("Enter the second real number: ");
-    scanf("%f", &Dumaog);
+    int Zoe, Dumaog;
+    printf("Enter the first integer: ");
+    scanf("%d", &Zoe);
+    printf("Enter the secondinteger: ");
+    scanf("%d", &Dumaog);
 
-    printf("Sum = %.2f\n", Zoe + Dumaog);
+    printf("Sum = %d\n", Zoe + Dumaog);
     
 }
