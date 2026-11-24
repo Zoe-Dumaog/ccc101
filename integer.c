@@ -3,10 +3,10 @@
 void main() {
     int Zoe, Dumaog;
     printf("Enter the first integer: ");
-    scanf("%d", &Zoe);
+    scanf("%i", &Zoe);
     printf("Enter the secondinteger: ");
-    scanf("%d", &Dumaog);
+    scanf("%i", &Dumaog);
 
-    printf("Sum = %d\n", Zoe + Dumaog);
+    printf("Sum = %i\n", Zoe + Dumaog);
     
 }
